@@ -1,0 +1,95 @@
+﻿@charset "utf-8";
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:500);
+
+.logo {
+    position: absolute;
+}
+
+nav {
+    background-color: #252e30;
+    width: 100%;
+    height: 70px;
+}
+
+    nav ul {
+        list-style: none;
+        float: right;
+        margin-right: 80px;
+        margin-top: 20px;
+    }
+
+        nav ul li {
+            display: inline-block;
+            padding: 5px 10px 5px 10px;
+            margin-right: 10px;
+            text-align: center;
+            font-size: 1em;
+        }
+
+            nav ul li a {
+                color: #fff;
+                font-family: 'Roboto', sans-serif;
+                transition: .35s;
+            }
+
+                nav ul li a:hover {
+                    text-decoration: none;
+                    transition: .35s;
+                }
+
+.active {
+    color: #2ecc71;
+}
+
+.mainWrap {
+    background-image: url("../img/focal-resume-psd-theme.jpg");
+    background-size: 100%;
+    height: 600px;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+}
+
+.banner {
+    width: 650px;
+    height: 60px;
+    padding-top: 230px;
+    margin: auto;
+}
+
+.banner h1 {
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    border-top: solid 2px #fff;
+    border-bottom: solid 2px #fff;
+    padding: 10px;
+    
+}
+
+.bannerBtn{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    width: 180px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+    .bannerBtn p {
+        border: solid 1px #fff;
+        font-size: 1.2em;
+        padding: 10px;
+    }
+
+footer {
+    background-color: #191f21;
+    height: 180px;
+    font-family: 'Roboto', sans-serif;
+    color: #4b5456;
+    text-align: center;
+}
+
+    footer p {
+        padding-top: 50px;
+    }
