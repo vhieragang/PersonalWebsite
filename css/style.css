@@ -1,9 +1,11 @@
-﻿@charset "utf-8";
+@charset "utf-8";
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:500);
 
 .logo {
     position: absolute;
+    padding-top: 4px;
+    margin-left: 3%;
 }
 
 nav {
@@ -15,7 +17,7 @@ nav {
     nav ul {
         list-style: none;
         float: right;
-        margin-right: 80px;
+        margin-right: 2%;
         margin-top: 20px;
     }
 
@@ -36,6 +38,12 @@ nav {
                 nav ul li a:hover {
                     text-decoration: none;
                     transition: .35s;
+                    color: #4b5557;
+                }
+
+                nav ul li a:active {
+                    color: #f00;
+                    text-decoration: none;
                 }
 
 .active {
@@ -43,15 +51,24 @@ nav {
 }
 
 .mainWrap {
-    background-image: url("../img/focal-resume-psd-theme.jpg");
+    background-image: url("../img/background-image.jpg");
     background-size: 100%;
-    height: 600px;
+    height: 720px;
     font-family: 'Roboto', sans-serif;
     display: block;
 }
 
+[class*="about"] {
+    padding: 35px;
+    border: solid 1px #000;
+}
+
+[class*="aboutDetails"] {
+    font-family: 'Roboto', sans-serif;
+}
+
 .banner {
-    width: 650px;
+    width: 655px;
     height: 60px;
     padding-top: 230px;
     margin: auto;
